@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "motion-capture", "motion-capture.csproj", "{12CB1A9F-E299-ABD1-9DB3-925AA801DFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "motion-capture.Editor", "motion-capture.Editor.csproj", "{A50F1917-79FC-F277-BB72-50E18689A420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12CB1A9F-E299-ABD1-9DB3-925AA801DFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CB1A9F-E299-ABD1-9DB3-925AA801DFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CB1A9F-E299-ABD1-9DB3-925AA801DFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CB1A9F-E299-ABD1-9DB3-925AA801DFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50F1917-79FC-F277-BB72-50E18689A420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50F1917-79FC-F277-BB72-50E18689A420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50F1917-79FC-F277-BB72-50E18689A420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50F1917-79FC-F277-BB72-50E18689A420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
