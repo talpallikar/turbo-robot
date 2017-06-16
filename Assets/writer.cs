@@ -34,7 +34,7 @@ public class writer : MonoBehaviour
         Transform[] allChildren = GetComponentsInChildren<Transform>();
         foreach (Transform child in allChildren)
         {
-            string rotation = child.rotation.ToString().Substring(1, child.rotation.ToString().Length - 2);
+            string rotation = child.rotation.ToString();
             string component = child.ToString().Substring(0, child.ToString().Length - 24);
             FmtPrint(sw, rotation, component);
         }
@@ -56,7 +56,7 @@ public class writer : MonoBehaviour
 
     void FmtPrint(StreamWriter sw, string rotation, string component)
     {
-        sw.WriteLine(component + ',' + rotation + ',' + Time.frameCount.ToString());
+        sw.WriteLine(component + ',' + rotation.Substring(1, rotation.Length - 2) + ',' + Time.frameCount.ToString());
     }
 
 }
