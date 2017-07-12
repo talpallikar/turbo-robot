@@ -56,7 +56,7 @@ public class writer : MonoBehaviour
 
     void FmtPrint(StreamWriter sw, string rotation, string component)
     {
-        sw.WriteLine(component + ',' + rotation.Substring(1, rotation.Length - 2) + ',' + Time.frameCount.ToString());
+        sw.WriteLine(Time.frameCount.ToString()+','+component + ',' + rotation.Substring(1, rotation.Length - 2));
     }
 
 }
